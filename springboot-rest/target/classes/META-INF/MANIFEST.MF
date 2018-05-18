@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-rest
+Implementation-Version: 1.0
+Built-By: verizon
+Implementation-Vendor-Id: com.vz
+Build-Jdk: 1.8.0_172
+Implementation-URL: http://projects.spring.io/spring-boot/springboot-r
+ est/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,8 @@
+com\vz\spring\EmpDao.class
+com\vz\spring\MyLogger.class
+com\vz\spring\AppConfig.class
+com\vz\spring\Main.class
+com\vz\spring\EmpDaoJdbcImpl.class
+com\vz\spring\EmpService.class
+com\vz\spring\Employee.class
+com\vz\spring\EmpDaoJPAImpl.class

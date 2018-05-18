@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean id="daoImpl" class="com.vz.spring.EmpDaoJdbcImpl"/>
+<bean id="daoJPAImpl" class="com.vz.spring.EmpDaoJPAImpl"/>
+
+<bean id="app" class="com.vz.spring.EmpService">
+	<property name="dao" ref="daoImpl"></property>
+</bean>
+
+<bean id="app1" class="com.vz.spring.EmpService">
+	<property name="dao" ref="daoJPAImpl"></property>
+</bean>
+
+
+</beans>
